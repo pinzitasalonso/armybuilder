@@ -9,10 +9,7 @@ export default function HomeScreen({ navigation }: Props) {
     <View style={styles.container}>
       <Text style={styles.title}>Army Builder</Text>
       <Text style={styles.subtitle}>Warhammer 40K Ork Army Builder</Text>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate('ArmyList')}
-      >
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('ArmyList')}>
         <Text style={styles.buttonText}>View Armies</Text>
       </TouchableOpacity>
     </View>

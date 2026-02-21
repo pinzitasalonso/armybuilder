@@ -13,11 +13,7 @@ export default function RootNavigator() {
         headerTintColor: '#fff',
       }}
     >
-      <Stack.Screen
-        name="MainTabs"
-        component={TabNavigator}
-        options={{ headerShown: false }}
-      />
+      <Stack.Screen name="MainTabs" component={TabNavigator} options={{ headerShown: false }} />
       <Stack.Screen
         name="ArmyDetail"
         component={ArmyDetailScreen}
