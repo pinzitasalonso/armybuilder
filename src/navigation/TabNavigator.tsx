@@ -18,11 +18,7 @@ export default function TabNavigator() {
       }}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen
-        name="ArmyList"
-        component={ArmyListScreen}
-        options={{ title: 'Armies' }}
-      />
+      <Tab.Screen name="ArmyList" component={ArmyListScreen} options={{ title: 'Armies' }} />
       <Tab.Screen name="Settings" component={SettingsScreen} />
     </Tab.Navigator>
   );
